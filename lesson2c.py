@@ -15,3 +15,16 @@ print(type(phonebook))
 
 #printing out the omondi number
 print(phonebook["omondi"])
+
+player = {
+    "name": "messi",
+    "age": "44",
+    "teams": ["psg", "barcelona", "argentina"],
+    "more":{
+        "children": 3,
+        "residence": "us",
+        "phone" : (56565777, 7575775, 4434333)
+    }
+}
+#print barcelona
+print(player["teams"][1])
