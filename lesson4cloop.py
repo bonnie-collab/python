@@ -21,6 +21,22 @@ print(counties)
 for county in counties:
    print(county)
 
+
+print('===============')
+
+search = input("enter a county to search: ")
+found = False
+
+for county in counties:
+    if county == search:
+        found = True
+        break
+
+if found:
+    print("County found")
+else:
+    print("Not found")
+
 print('===============')
 
 
