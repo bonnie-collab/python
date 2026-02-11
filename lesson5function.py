@@ -38,3 +38,17 @@ def multiply():
     multiply = num1 * num2 * num3
     print("the multiplication is", multiply)
 multiply()
+
+#below is a division function 
+def division():
+    number1 = int(input("enter the first number: "))
+    number2 = int(input("enter the first number: "))
+    quotient = number1 / number2
+    print("the answer is", quotient)
+
+division()
+
+print("---------")
+for function in range(3):
+    division()
+    
